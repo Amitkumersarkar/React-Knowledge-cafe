@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "cover": "https://example.com/images/cover1.jpg",
+        "title": "The Future of AI",
+        "author": "John Doe",
+        "author_image": "https://example.com/images/author1.jpg",
+        "posted_date": "2025-02-10",
+        "reading_time": "5 min",
+        "hashtags": [
+            "#AI",
+            "#Technology",
+            "#Future"
+        ]
+    },
+    {
+        "id": 2,
+        "cover": "https://example.com/images/cover2.jpg",
+        "title": "Exploring the Deep Sea",
+        "author": "Jane Smith",
+        "author_image": "https://example.com/images/author2.jpg",
+        "posted_date": "2025-02-12",
+        "reading_time": "8 min",
+        "hashtags": [
+            "#Ocean",
+            "#Discovery",
+            "#Science"
+        ]
+    },
+    {
+        "id": 3,
+        "cover": "https://example.com/images/cover3.jpg",
+        "title": "Mastering the Art of Cooking",
+        "author": "Emily Johnson",
+        "author_image": "https://example.com/images/author3.jpg",
+        "posted_date": "2025-02-14",
+        "reading_time": "6 min",
+        "hashtags": [
+            "#Cooking",
+            "#Food",
+            "#Recipes"
+        ]
+    },
+    {
+        "id": 4,
+        "cover": "https://example.com/images/cover4.jpg",
+        "title": "Space Exploration: The Next Frontier",
+        "author": "Michael Brown",
+        "author_image": "https://example.com/images/author4.jpg",
+        "posted_date": "2025-02-15",
+        "reading_time": "10 min",
+        "hashtags": [
+            "#Space",
+            "#NASA",
+            "#Exploration"
+        ]
+    },
+    {
+        "id": 5,
+        "cover": "https://example.com/images/cover5.jpg",
+        "title": "The Power of Mindfulness",
+        "author": "Sarah Williams",
+        "author_image": "https://example.com/images/author5.jpg",
+        "posted_date": "2025-02-16",
+        "reading_time": "7 min",
+        "hashtags": [
+            "#Mindfulness",
+            "#Wellness",
+            "#Meditation"
+        ]
+    }
+]
