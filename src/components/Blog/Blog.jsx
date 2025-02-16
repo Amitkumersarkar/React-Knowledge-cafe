@@ -23,7 +23,7 @@ const Blog = ({ blog }) => {
                     <span>{reading_time} read</span>
                 </div>
             </div>
-            <h2 className="text-2xl">{title}</h2>
+            <h2 className="text-3xl">{title}</h2>
 
         </div >
     );
