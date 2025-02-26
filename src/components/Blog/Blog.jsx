@@ -4,9 +4,9 @@ const Blog = ({ blog }) => {
     // console.log(blog);
     const { title, cover, author, author_image, posted_date, reading_time, hashtags } = blog;
     return (
-        <div>
-            <img className='p-4 w-full' src={cover} alt={`cover picture of the title ${title}`} />
-            <div className='flex justify-between'>
+        <div className='mb-2'>
+            <img className='p-4 w-full mb-8' src={cover} alt={`cover picture of the title ${title}`} />
+            <div className='flex justify-between mb-4'>
                 <div className='p-4'>
                     <img className='w-14' src={author_image} alt="" />
                     <div>
