@@ -6,10 +6,16 @@ import './index.css';
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
 
+  const [readingTime, setReadingTime] = useState(0);
+
   const handleAddToBookmark = blog => {
     // console.log('bookmarks adding soon');
     const newBookMarks = [...bookmarks, blog];
     setBookmarks(newBookMarks);
+  }
+
+  const handleMarkAsRead = time => {
+    console.log('marking as read', time);
   }
 
   return (
@@ -18,7 +24,7 @@ function App() {
         <Header></Header>
       </div>
       <div className='md:flex max-w-7xl mx-auto'>
-        <Blogs handleAddToBookmark={handleAddToBookmark}></Blogs>
+        <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs>
         <Bookmarks bookmarks={bookmarks}></Bookmarks>
       </div>
     </>
