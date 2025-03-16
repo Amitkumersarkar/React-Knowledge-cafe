@@ -19,7 +19,7 @@ const Blog = ({ blog }) => {
                 </div>
                 <div>
                     <span>{reading_time} read</span>
-                    <button><FaRegBookmark></FaRegBookmark> </button>
+                    <button className='ml-2 text-pink-600'><FaRegBookmark></FaRegBookmark> </button>
                 </div>
             </div>
             <h2 className="text-3xl">{title}</h2>
