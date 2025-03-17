@@ -9,13 +9,13 @@ function App() {
   const [readingTime, setReadingTime] = useState(0);
 
   const handleAddToBookmark = blog => {
-    // console.log('bookmarks adding soon');
+
     const newBookMarks = [...bookmarks, blog];
     setBookmarks(newBookMarks);
   }
 
   const handleMarkAsRead = time => {
-    // console.log('marking as read', time);
+
     const newReadingTime = readingTime + time;
     setReadingTime(newReadingTime);
   }

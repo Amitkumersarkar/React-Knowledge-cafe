@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { FaRegBookmark } from "react-icons/fa";
 
 const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
-    // console.log(blog);
+
     const { title, cover, author, author_image, posted_date, reading_time, hashtags } = blog;
     return (
         <div className='mb-20 p-4 space-y-4'>
